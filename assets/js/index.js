@@ -30,7 +30,7 @@ buttonSubmit.onclick = function () {
     let chk = document.getElementsByTagName("input");
     let form = document.getElementById("form");
     let boxFooter = document.getElementById("box-footer");
-    let success = document.createElement("p");
+    let success = document.createElement("span");
     let successTxt = document.createTextNode("Formulário enviado com sucesso!");
 
 

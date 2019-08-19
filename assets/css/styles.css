@@ -234,7 +234,7 @@ input:focus {
   -ms-flex-align: center;
   align-items: center;
 }
-#box-footer p {
+#box-footer span {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
