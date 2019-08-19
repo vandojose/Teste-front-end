@@ -76,6 +76,7 @@ buttonSubmit.onclick = function () {
         success.appendChild(successTxt);
         boxFooter.insertBefore(success, buttonSubmit);
         boxFooter.style.justifyContent = "space-between";
+        sub.classList.add("disable");
 
         setTimeout(function () {
             boxFooter.removeChild(boxFooter.childNodes[1]);
