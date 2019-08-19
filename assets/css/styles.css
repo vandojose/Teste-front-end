@@ -262,6 +262,11 @@ input:focus {
   border: 2px solid #555555;
   color: #555555;
 }
+#box-footer button:disabled:hover {
+  background: #c5cfd6;
+  border: 2px solid #555555;
+  color: #555555;
+}
 #box-footer button:hover {
   border: 2px solid #2f3676;
   background: #191847;

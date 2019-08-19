@@ -21,7 +21,6 @@ sub.onclick = function () {
 
 buttonSubmit.onclick = function () {
     event.preventDefault();
-
     let chkReact = document.getElementById("chk-react");
     let chkVue = document.getElementById("chk-vue");
     let chkAngular = document.getElementById("chk-angular");
@@ -44,6 +43,7 @@ buttonSubmit.onclick = function () {
 
         for (let i = 0; i < 3; i++) {
             label[i].classList.add("error");
+            
         }
         return false;
 
@@ -63,6 +63,7 @@ buttonSubmit.onclick = function () {
         return false;
     } else {
         qtdStickers.classList.remove("error");
+        buttonSubmit.disabled = true;
     }
 
     fetch('https://httpbin.org/post', {
@@ -81,7 +82,9 @@ buttonSubmit.onclick = function () {
         setTimeout(function () {
             boxFooter.removeChild(boxFooter.childNodes[1]);
             boxFooter.style.justifyContent = "flex-end";
+            buttonSubmit.disabled = false;
         }, 3000);
+       
     })
 
 }
