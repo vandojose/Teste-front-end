@@ -48,7 +48,7 @@ input:focus {
 }
 
 #box-header {
-  background: url(../images/header.png) no-repeat;
+  background: url(./assets/images/header.png) no-repeat;
   background-size: cover;
   background-position-x: -12px;
   height: 187px;
