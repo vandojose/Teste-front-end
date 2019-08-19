@@ -48,7 +48,8 @@ input:focus {
 }
 
 #box-header {
-  background: url(./assets/images/header.png) no-repeat;
+  background: url(./assets/images/header.png) no-repeat;/** alterei o caminho para rodar no sandbox **/
+  /* background: url(../images/header.png) no-repeat; */
   background-size: cover;
   background-position-x: -12px;
   height: 187px;
