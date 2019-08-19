@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Teste Frontend VAGAS.com</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <form id="form" action="">
+        <div id="box-header">
+          <div class="title">
+            <p class="">Formulário</p>
+            <p class="">para compra de</p>
+            <p class="">Pacote de Stickers</p>
+          </div>
+        </div>
+
+        <div id="box-main">
+          <!-- STICKERS -->
+          <div class="fieldset">
+            <span>Quais stickers:</span>
+
+            <label class="stickers-name" for="chk-react">
+              <input type="checkbox" name="React" id="chk-react" value="" />
+              <span class="checkmark"></span>
+              React
+            </label>
+
+            <label class="stickers-name" for="chk-vue">
+              <input type="checkbox" name="Vue" id="chk-vue" value="" />
+              <span class="checkmark"></span>
+              Vue
+            </label>
+
+            <label class="stickers-name" for="chk-angular">
+              <input type="checkbox" name="Angular" id="chk-angular" value="" />
+              <span class="checkmark"></span>
+              Angular
+            </label>
+          </div>
+          <!-- CONTADOR -->
+          <div class="fieldset">
+            <label for="qtd-stickers">Quantos stickers de cada?</label>
+
+            <div class="counter">
+              <svg
+                id="sub"
+                class="disable"
+                xmlns="http://www.w3.org/2000/svg"
+                width="42"
+                height="42"
+              >
+                <path
+                  d="M4.667 0A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667zm28 23.333H9.333v-4.666h23.334v4.666z"
+                />
+              </svg>
+              <input
+                type="number"
+                name="qtd-stickers"
+                id="qtd-stickers"
+                placeholder="0"
+                value="0"
+              />
+              <svg
+                id="add"
+                xmlns="http://www.w3.org/2000/svg"
+                width="42"
+                height="42"
+              >
+                <path
+                  d="M4.667 42h32.666A4.668 4.668 0 0 0 42 37.333V4.667A4.668 4.668 0 0 0 37.333 0H4.667A4.668 4.668 0 0 0 0 4.667v32.666A4.668 4.668 0 0 0 4.667 42zm4.666-23.333h9.334V9.333h4.666v9.334h9.334v4.666h-9.334v9.334h-4.666v-9.334H9.333v-4.666z"
+                />
+              </svg>
+            </div>
+          </div>
+          <!-- OBSERVAÇÕES -->
+          <div class="fieldset">
+            <label for="observacoes">Observações</label>
+
+            <textarea
+              name="observacoes"
+              id="observacoes"
+              placeholder="Alguma dúvida? Recado?"
+            ></textarea>
+          </div>
+        </div>
+        <!-- BTN-SUBMIT -->
+        <div id="box-footer">
+          <button id="buttonSubmit">Enviar</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
