@@ -17,7 +17,7 @@ Precisamos fazer o componente de contador funcionar para que o usuário possa de
 ##Bonus: Vamos validar o formulário?!
 Validações de formulário ajudam o usuário a não se perder durante o preenchimento das informações necessárias. Ajude nessa causa upside_down_face.
 
-Link do desafio: ![](https://github.com/marciano-netpoint/Teste-Front-end)
+Link do desafio: https://github.com/marciano-netpoint/Teste-Front-end
 
-Link do resultado: ![](https://codesandbox.io/s/front-end-pph4t)
+Link do resultado: https://codesandbox.io/s/front-end-pph4t
 
