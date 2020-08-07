@@ -1,27 +1,33 @@
 {
-  "name": "front-end",
+  "name": "teste-front-end",
   "version": "1.0.0",
-  "description": "Teste da Netpoint para front-end",
-  "main": "index.html",
+  "description": "##Primeira parte: colocando ordem na casa.",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandojose/Teste-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandojose/Teste-front-end/issues"
+  },
+  "homepage": "https://github.com/vandojose/Teste-front-end#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-node": "^4.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "parcel-bundler": "^1.6.1",
-    "prettier": "^1.18.2"
-  },
-  "keywords": []
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.3.2",
+    "node-sass": "^4.14.1"
+  }
 }
