@@ -6,7 +6,7 @@ const stickersQtd = document.getElementById('stickersQtd');
 const buttonAdd = document.getElementById('buttonAdd');
 const buttonSub = document.getElementById('buttonSub');
 
-const testes = () => {
+const stickersQtdValidation = () => {
   if (stickersQtd.value) {
     buttonSub.disabled = false;
   } else {
